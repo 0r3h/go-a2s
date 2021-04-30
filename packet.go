@@ -8,7 +8,7 @@ import (
 	"net"
 )
 
-const MaxPacketSize = 2000
+const MaxPacketSize = 4096
 
 var (
 	ErrOutOfBounds = errors.New("Read out of bounds")
